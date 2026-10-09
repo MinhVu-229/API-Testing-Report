@@ -134,6 +134,6 @@ Kết quả cho thấy API phản hồi đúng với mục đích của từng k
 
 ## 11. Tài Liệu Tham Khảo
 
-- Video hướng dẫn Postman: `https://www.youtube.com/watch?v=MFxk5BZulVU`
+- Video hướng dẫn Postman: https://www.youtube.com/watch?v=MFxk5BZulVU 
 
 
