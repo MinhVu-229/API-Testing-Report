@@ -11,7 +11,7 @@
 - **Mục đích:** Kiểm tra việc gọi API lấy danh sách người dùng.
 - **Kết quả Test:** Status code 200 OK.
 - **Hình ảnh thực hành:**
-*<img width="1024" height="576" alt="3f404cad-b7d0-4159-9ec6-12ed2bf1d41b" src="https://github.com/user-attachments/assets/2bf0cd96-27aa-4888-a1a7-701e6b9a0c2a" />*
+*<img width="3837" height="2040" alt="image" src="https://github.com/user-attachments/assets/b84ce267-e257-49b1-9151-eb9ec25b81bc" />*
 - **Nhận xét kết quả:** API hoạt động ổn định, trả về đúng dữ liệu danh sách người dùng ở trang 2 dưới định dạng JSON. Dữ liệu trả về đầy đủ các trường thông tin (id, email, first_name, last_name, avatar).
 
 ### 2.2. Request POST (Thêm mới dữ liệu)
@@ -24,6 +24,7 @@
   }
   ```
 - **Hình ảnh thực hành:**
-*<img width="1024" height="575" alt="35d1266b-5d5e-4fda-8e5d-6a0073ee02d9" src="https://github.com/user-attachments/assets/19c29114-5c32-47ad-88d4-31029a9b6951" />*
+*<img width="3837" height="2037" alt="image" src="https://github.com/user-attachments/assets/c57a1c09-8a83-48d4-82e7-751fdcf5bc36" />*
+
 - **Kết quả Test:** Status code 201 Created.
 - **Nhận xét kết quả:** API đã tiếp nhận thành công Body Data gửi lên. Trong phần kết quả trả về (Response Body), hệ thống ghi nhận đúng thông tin "name" và "job", đồng thời tự động cấp phát thêm một id mới và thời gian tạo createdAt cho bản ghi.
