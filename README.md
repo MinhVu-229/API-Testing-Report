@@ -75,11 +75,12 @@
 - **Tham Số:** `id=2`
 - **Dữ Liệu Gửi Đi (Body):**
   ```json
-{
-    "name": "morpheus",
-    "job": "zion resident"
-}
-    ```
+  {
+      "name": "morpheus",
+      "job": "zion resident"
+  }
+   ```
+
 - **Kết Quả Mong Đợi:** API cập nhật dữ liệu thành công và trả về thông tin sau chỉnh sửa với Status Code 200 OK.
 - **Kết Quả Thực Tế:** API trả về dữ liệu cập nhật kèm thời gian updatedAt với Status Code 200 OK.
 - **Trạng Thái:** Thành công
