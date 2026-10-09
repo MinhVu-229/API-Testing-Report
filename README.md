@@ -103,19 +103,37 @@
 
 ---
 
-## 9. Tóm Tắt Kết Quả Kiểm Thử
-- Số lượng kịch bản đã kiểm thử: 5
-- Số lần thành công: 5
-- Số lần thất bại: 0
-- Tỉ lệ thành công: 100%
+## 9. Kết Quả Kiểm Thử
+
+Tóm tắt kết quả kiểm thử:
+
+- **Số lượng kịch bản đã kiểm thử:** 5
+- **Số lần thành công:** 5
+- **Số lần thất bại:** 0
+- **Tỉ lệ thành công:** 100%
+
+| Kịch bản | Phương thức | Nội dung | Status Code | Trạng thái |
+|---|---|---|---|---|
+| 1 | GET | Lấy danh sách người dùng | 200 OK | Thành công |
+| 2 | GET | Lấy người dùng không tồn tại | 404 Not Found | Thành công |
+| 3 | POST | Tạo người dùng mới | 201 Created | Thành công |
+| 4 | PUT | Cập nhật thông tin người dùng | 200 OK | Thành công |
+| 5 | DELETE | Xóa người dùng | 204 No Content | Thành công |
+
+**Ghi chú:** Kịch bản 2 là test trường hợp lỗi có chủ đích, API trả về 404 đúng như mong đợi nên vẫn tính là thành công.
 
 ---
 
-## 10. Phát Hiện Lỗi
-- ID Lỗi: 404 Not Found (ở Kịch bản TC02)
-- Mô Tả Lỗi: API không tìm thấy người dùng với ID 23010129.
-- Mức Độ Ảnh Hưởng: Không ảnh hưởng.
-- Ghi Chú/Đề Xuất: Đây là trường hợp kiểm thử cố tình truyền dữ liệu không tồn tại để kiểm tra khả năng bắt lỗi của API. API đã xử lý đúng chuẩn RESTful.
+## 10. Kết Luận
 
+Thông qua bài thực hành, em đã sử dụng Postman để kiểm thử REST API ReqRes với bốn phương thức GET, POST, PUT và DELETE, đồng thời kiểm thử cả trường hợp dữ liệu không tồn tại.
+
+Kết quả cho thấy API phản hồi đúng với mục đích của từng kịch bản: 200 OK khi lấy và cập nhật dữ liệu, 201 Created khi tạo mới, 204 No Content khi xóa và 404 Not Found khi yêu cầu tài nguyên không có. Qua đó em hiểu rõ hơn cách gửi request, đọc response và ý nghĩa của các mã trạng thái HTTP.
+
+---
+
+## 11. Tài Liệu Tham Khảo
+
+- Video hướng dẫn Postman: `https://www.youtube.com/watch?v=MFxk5BZulVU`
 
 
